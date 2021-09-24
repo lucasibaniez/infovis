@@ -1,26 +1,81 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html lang="en"><head>
 	<meta charset="utf-8">
-	<title>Infovis - ITBA</title>
-</head>
-<body>
-	<h1>Semana 37</h1>
-	<h4>Tableu</h4>
-	<div class='tableauPlaceholder' id='viz1632503282717' style='position: relative'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday2021Week37_16325032657010&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MakeoverMonday2021Week37_16325032657010&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday2021Week37_16325032657010&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1632503282717');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-	
-	<h4>Observable HQ</h4>
-	<div id="observablehq-barras-58fd95d5"></div>
-	<div id="observablehq-referencias-58fd95d5"></div>
-	<p>Credit: <a href="https://observablehq.com/@lucasibaniez/semana-37-2021">Semana 37 - 2021 by Lucas Ibañez</a></p>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+	-->
+	<title>Infovis - ITBA (Chaco)</title>
 
-	<script type="module">
-	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-	import define from "https://api.observablehq.com/@lucasibaniez/semana-37-2021.js?v=3";
-	new Runtime().module(define, name => {
-	  if (name === "barras") return new Inspector(document.querySelector("#observablehq-barras-58fd95d5"));
-	  if (name === "referencias") return new Inspector(document.querySelector("#observablehq-referencias-58fd95d5"));
-	});
-	</script>
-</body>
-</html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Custom styles for this template -->
+	<link href="css/offcanvas.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+
+	<nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #191d2b !important;">
+	  <a class="navbar-brand" href="#">InfoVis</a>
+	  <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+		  </li>
+		</ul>
+
+	  </div>
+	</nav>
+
+	<main role="main" class="container">
+	  <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded box-shadow">
+		<img class="mr-3" src="https://www.itba.edu.ar/wp-content/uploads/2021/08/ITBA-logo3.png" alt="" width="48" height="48">
+		<div class="lh-100">
+		  <h6 class="mb-0 text-white lh-100">Semana 37</h6>
+		  <small>Make Over Monday</small>
+		</div>
+	  </div>
+
+	  	<div class="my-3 p-3 bg-white rounded box-shadow">
+			<h6 class="border-bottom border-gray pb-2 mb-0">20 Largest Solar Power Plants</h6>
+			<div class="media text-muted pt-3">
+				<div class='tableauPlaceholder' id='viz1632503282717' style='position: relative'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday2021Week37_16325032657010&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MakeoverMonday2021Week37_16325032657010&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MakeoverMonday2021Week37_16325032657010&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1632503282717');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+			</div>
+	  	</div>
+
+	  	<div class="my-3 p-3 bg-white rounded box-shadow">
+			<h6 class="border-bottom border-gray pb-2 mb-0">Observable HQ</h6>
+			<div class="media text-muted pt-3">
+				<div id="observablehq-barras-58fd95d5"></div>
+				<div id="observablehq-referencias-58fd95d5"></div>
+				<p>Credit: <a href="https://observablehq.com/@lucasibaniez/semana-37-2021">Semana 37 - 2021 by Lucas Ibañez</a></p>
+
+				<script type="module">
+					import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+					import define from "https://api.observablehq.com/@lucasibaniez/semana-37-2021.js?v=3";
+					new Runtime().module(define, name => {
+					  if (name === "barras") return new Inspector(document.querySelector("#observablehq-barras-58fd95d5"));
+					  if (name === "referencias") return new Inspector(document.querySelector("#observablehq-referencias-58fd95d5"));
+					});
+				</script>
+			</div>
+	  	</div>
+	</main>
+
+	<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50" style="background-color: #191d2b !important; color:white;">
+		<div class="container text-center">
+		  <small>Lucas Ibañez</small>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</body></html>
